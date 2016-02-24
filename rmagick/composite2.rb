@@ -9,5 +9,5 @@ colored = Magick::Image.new(102, 102) {
 	self.background_color = '#fffff1'
 }
 
-colored.composite!(src.negate, 50, 50, Magick::CopyOpacityCompositeOp)
+colored.composite!(src.negate, 0, 0, Magick::CopyOpacityCompositeOp)
 colored.write('rmagick/generated_images/lenovo_g50_70_core_i3_403U_colored.jpg')
