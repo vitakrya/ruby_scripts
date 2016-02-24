@@ -6,7 +6,7 @@ src = src.resize_to_fill(102, 102).quantize(256, Magick::GRAYColorspace).contras
 overlay = Magick::Image.read('rmagick/generated_images/draw1.png').first
 src.composite!(overlay, 2, 10, Magick::OverCompositeOp)
 colored = Magick::Image.new(102, 102) {
-	self.background_color = '#fffff1'
+	self.background_color = '#1fff71'
 }
 
 colored.composite!(src.negate, 0, 0, Magick::CopyOpacityCompositeOp)
