@@ -1,0 +1,1 @@
+url1 = 'http://www.corpcentre.ru/catalog/mobilnye_telefony/?f[858][min]=590&f[858][max]=63000&f[3019][]=%C3%91%C2%81%C3%90%C2%BC%C3%90%C2%B0%C3%91%C2%80%C3%91%C2%82%C3%91%C2%84%C3%90%C2%BE%C3%90%C2%BD'
